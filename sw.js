@@ -1,5 +1,5 @@
-const CACHE = "rep-log-v1";
-const ASSETS = ["./", "./index.html", "./manifest.json"];
+const CACHE = "rep-log-v3";
+const ASSETS = ["./", "./index.html", "./manifest.json", "./firebase-config.js", "./firebase-init.js"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
